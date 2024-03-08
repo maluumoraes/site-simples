@@ -1,0 +1,32 @@
+nav, footer{
+    background-color: rgb(243, 225, 89);
+}
+
+body{
+    background-color: rgb(204, 244, 250);
+}
+
+img 
+{
+    border-radius: 50%;
+    border-color: rgb(36, 127, 127);
+    border-style: groove;
+    width: 50%;
+
+}
+
+.membro-time,
+.servicos {
+    text-align: center;
+    margin: 20px; 
+    padding: 20px;
+}
+
+.membro-time img,
+.servicos img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+}
+
