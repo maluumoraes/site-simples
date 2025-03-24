@@ -1,32 +1,123 @@
-nav, footer{
-    background-color: rgb(243, 225, 89);
+nav,
+footer {
+  background-color: #0f4e03;
+  color: #fff;
 }
 
-body{
-    background-color: rgb(204, 244, 250);
+/*Corpo*/
+body {
+  background-color: rgb(103, 201, 163);
 }
 
-img 
-{
-    border-radius: 50%;
-    border-color: rgb(36, 127, 127);
-    border-style: groove;
-    width: 50%;
-
+img {
+  border-radius: 50%;
+  border-color: rgb(36, 127, 127);
+  border-style: groove;
+  width: 40%;
 }
 
-.membro-time,
-.servicos {
-    text-align: center;
-    margin: 20px; 
-    padding: 20px;
+h4 {
+  font-weight: bold;
 }
 
-.membro-time img,
-.servicos img {
-    display: block;
-    margin: 0 auto; 
-    max-width: 100%;
-    height: auto;
+a {
+  color: aliceblue;
 }
 
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*BOTÕES*/
+
+button {
+  border-radius: 20px;
+  border-style: none;
+  color: #fff;
+  text-align: center;
+  background-color: #278f12;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button.more {
+  margin: 20px;
+  float: right;
+}
+
+button:hover {
+  background-color: #198104;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*JUMBOTRON */
+.content.jumbotron {
+  width: 100vw;
+  height: 70vh;
+  background-color: rgba(75, 192, 75, 0.7);
+  background-image: url(Imagens/dc.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+/*caixa de apresentação de secção*/
+.card-introducao {
+  color: beige;
+  background-color: rgb(99, 168, 145, 0.7);
+  width: 50vw;
+  height: auto;
+  padding: 40px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/*Secções SERVIÇOS e TIME*/
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-item {
+  width: 30%;
+  background-color: #278f12;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5%;
+}
+
+.item-text {
+  color: #0f4e03;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#team {
+  background-image: url(Imagens/edcperinatal.png);
+  background-color: rgba(75, 192, 75, 0.7);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  width: 100vw;
+  color: #0f4e03;
+  align-items: center;
+}
+
+#final {
+  background-color: #477e3c;
+}
+
+#contact {
+  border-radius: 5px;
+  background-color: rgba(40, 110, 46, 0.4);
+  color: #fff;
+}
