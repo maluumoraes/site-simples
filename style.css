@@ -100,8 +100,7 @@ button:hover {
   text-align: center;
   margin-top: 5px;
 }
-
-#team {
+teste #team {
   background-image: url(Imagens/edcperinatal.png);
   background-color: rgba(75, 192, 75, 0.7);
   background-size: cover;
